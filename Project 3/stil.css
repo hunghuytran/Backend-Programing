@@ -1,0 +1,220 @@
+﻿/* Notera: Bygg HTML 5 elementen som block för att få det och fungera i äldre browsers */
+header, nav, article, section, aside, footer { display:block; }
+
+
+			
+.grad
+{
+				background: -webkit-radial-gradient(lightblue, blue); /* For Safari */
+				background: -o-radial-gradient(lightblue, blue); /* For Opera 11.1 to 12.0 */
+				background: -moz-radial-gradient(lightblue, blue); /* For Firefox 3.6 to 15 */
+				background: radial-gradient(lightblue, blue); /* Standard syntax */
+}
+
+body {
+				font-family:  Arial, Helvetica, sans-serif; 
+				background-color: #CCCCCC;				    
+}
+#sidan {
+				width:1100px;
+				margin:auto;
+				border:1px solid Grey;
+}
+header {
+				background-color:black;
+				color: #778899;	
+				height:69px;
+				text-align:center;
+				padding:5px;
+				margin:0px;			
+}
+header table {	width:100%;
+	
+}
+header table	{
+				border:0px;
+}
+header table td	{
+				border:0px;
+}
+
+nav {
+				height:50px;
+				background-color:#A9A9A9;	
+				margin-top: 10px;
+						
+}
+nav ul {
+				background-color:#A9A9A9;
+				list-style-type:none;
+				padding:0px;
+				margin: 1px;
+}
+nav ul li {
+				float:left;
+				padding-left:55px;
+				margin-left: 20px;
+}
+nav ul li:hover {
+}
+nav ul li a {	color: #778899;
+				text-decoration:none;
+				font-weight:bold;
+				font-size:small;
+}
+nav ul li a:hover {
+
+}
+
+#innehall {
+				height: 400px;
+				background-color:#616161;
+				border:1px solid Grey ;
+}
+article {
+				float: left;
+				width:1050px;
+				padding:20px;
+				background-color:#616161;
+
+			
+}
+section {
+				width:300px;
+				padding-left: 5px;
+				background-color:#9E9E9E ;
+				border-radius:12px 12px 12px 12px;
+
+}
+aside {
+				padding-top:40px;
+				background-color:#616161;
+				float:right;
+				width:20px;
+}
+footer {
+				clear:both;
+				height: 10px;
+				background-color:#A9A9A9;
+				text-align:center;
+				padding:20px;
+				margin-bottom:10px;
+				color: #778899;	
+				font-weight: bold;
+				font-size: small;
+}
+footer table	{
+				width:100%;
+}
+footer table	{
+				border:0px;
+}
+footer table td	{
+				border:0px;
+}
+
+
+h1 {
+				margin:0px;
+				padding:0px;
+}
+img {
+				margin: 4px;
+				border: 0px;
+				padding: 3px;
+}
+img.logo {
+				margin: 0px;
+				border: 0px;
+				padding: 0px;
+}
+
+p {
+				margin:5px;
+				padding:5px;
+				font-size: small;
+				color: black;
+}
+h2 {
+				margin: 2px;
+				padding: 0px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: medium;
+				font-weight: bold;
+				color: #000080;
+				}
+h3 {
+				margin: 1px;
+				font-weight:bold;
+				font-size: medium;
+}
+h4 {
+				margin: 2px;
+				padding: 0px;
+				font-size: small;
+}
+table {
+font-size:small;
+font-weight:bold;
+}
+td	{
+
+
+}
+form {font-size:small;}
+
+
+/* Enkel responsiv design för mindre skärmar */
+
+@media (max-width: 768px) {
+
+#sidan {
+				width: 100%;
+}
+article {
+				width: 90%;
+}
+
+}
+@media (max-width: 670px) {
+nav  {
+	
+				height:56px;
+}
+
+
+}
+@media (max-width: 480px)  {
+
+body  {
+				font-size: 12pt;
+}
+
+section {
+				width: 90%;
+}
+
+img  {				
+				width: 100%;
+}
+
+iframe  {
+				width: 100%;
+}
+}
+
+@media (max-width: 320px)  {
+
+body  {
+				font-size: 10pt;
+}
+}
+
+@media (max-width: 240px)  {
+
+body  {
+				font-size: 8pt;
+				border:4px;
+}
+}
+
